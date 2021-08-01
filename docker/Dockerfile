@@ -8,7 +8,7 @@ WORKDIR /var/www
 ADD rootfs/start.sh /etc/start.sh
 RUN chmod +x /etc/start.sh
 
-RUN git clone https://github.com/HaschekSolutions/opentrashmail.git
+RUN git clone https://github.com/skyelights/opentrashmail.git
 
 # nginx stuff
 ADD rootfs/nginx.conf /etc/nginx/conf.d/default.conf
